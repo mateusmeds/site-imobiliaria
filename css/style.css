@@ -1,0 +1,438 @@
+/* INÍCIO main_header */
+#main_header {
+    width: 100%;
+    background-color: #eeac31;
+}
+
+#main_header_content {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+#main_header_content nav {
+    flex-basis: 100%;
+    display: flex;
+}
+
+#main_header_content ul {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+
+#main_header_content li a {
+    color: #22201b;
+    font-size: .9em;
+    padding: 10px;
+}
+
+#main_header_content li a:hover {
+    background-color: #ce9326;
+    transition: .3s;
+}
+/* FIM main_header */
+
+/* INÍCIO main_banner */
+#main_banner {
+    width: 100%;
+    background: #53637b;
+}
+
+#main_banner_content {
+    max-width: 1600px;
+    background-image: url("../img/banner2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 160px 0;
+    text-align: center;
+}
+
+#main_banner_content h1 {
+    color: #FFF;
+    font-size: 2.3em;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+#main_banner_content select {
+    width: 220px;
+    height: 50px;
+    font-size: 1.1em;
+    padding-left: 5px;
+    border: none;
+    margin: 0 .5px;
+}
+
+#main_banner_content button {
+    font-size: 1.1em;
+    padding: 0 20px;
+    border: none;
+    margin: 0 .5px;
+    background-color: #eeac31;
+}
+
+#main_banner_content button:hover {
+    cursor: pointer;
+    background-color: #ce9326;
+    transition: .3s;
+}
+/* FIM main_banner */
+
+/* INÍCIO main_popular_neighborhoods */
+#main_popular_neighborhoods {
+    width: 100%;
+    background-color: #F7F7F7;
+}
+
+#main_popular_neighborhoods_content {
+    max-width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+#main_popular_neighborhoods_content > header {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+}
+
+#main_popular_neighborhoods_content > header h1 {
+    font-size: 1.6em;
+}
+
+#main_popular_neighborhoods_content > header p {
+    font-size: .95em;
+}
+
+#main_popular_neighborhoods_content article {
+    flex-basis: 23%;
+    text-align: center;
+}
+
+#main_popular_neighborhoods_content article img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#main_popular_neighborhoods_content article img:hover {
+    opacity: .85;
+
+}
+
+#main_popular_neighborhoods_content article h2 {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+.main_popular_neighborhoods_button {
+    flex-basis: 100%;
+    display: flex;
+}
+
+.main_popular_neighborhoods_button a {
+    width: 100%;
+    background-color: #eeac31;
+    padding: 10px;
+    color: #000;
+    font-size: .95em;
+    border-radius: 5px;
+}
+
+.main_popular_neighborhoods_button a:hover {
+    background-color: #ce9326;
+    transition: .3s;
+}
+
+#main_popular_neighborhoods_button_all {
+    flex-basis: 100%;
+    margin: 0 auto;
+    margin-top: 60px !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#main_popular_neighborhoods_button_all a {
+    padding: 10px 40px;
+    border: 2px solid #ce9326;
+    border-radius: 5px;
+    color: #ce9326;;
+    font-size: .95em;
+}
+
+#main_popular_neighborhoods_button_all a:hover {
+    background-color: #ce9326;
+    color: #FFF;
+    transition: .3s;
+}
+/* FIM main_popular_neighborhoods */
+
+/* INÍCIO main_popular_properties */
+#main_popular_properties {
+    width: 100%;
+    background-color: #f7f2eb;
+}
+
+#main_popular_properties_content {
+    max-width: 1300px;
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#main_popular_properties_content > header {
+    flex-basis: 100%;
+    margin-bottom: 20px;
+}
+
+#main_popular_properties_content h1 {
+    font-size: 1.6em;
+}
+
+#main_popular_properties_content p {
+    font-size: .95em;
+}
+
+#main_popular_properties_content article {
+    flex-basis: 23%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f7f2eb;
+    margin-bottom: 40px;
+    box-shadow: 0 0 7px #000;
+}
+
+#main_popular_properties_img {
+    flex-basis: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#main_popular_properties_img img {
+    width: 100%;
+    -webkit-transition: .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -moz-transition: .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -ms-transition: .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    -o-transition: .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    transition: .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+
+#main_popular_properties_img:hover img {
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -ms-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
+}
+
+.main_popular_properties_article_info {
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+
+#main_popular_properties_content article header {
+    flex-basis: 100%;
+    margin: 8px 0;
+}
+
+#main_popular_properties_content article header p {
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: .9em;
+}
+
+#main_popular_properties_content article header h2 {
+   font-size: 1.1em;
+}
+
+.main_popular_properties_info {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_popular_properties_price {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 1.3em;
+    margin: 15px 0;
+    color: #ce9326;
+}
+
+.main_popular_properties_button {
+    flex-basis: 100%;
+    display: flex;
+}
+
+.main_popular_properties_button a {
+    width: 100%;
+    padding: 10px;
+    background-color: #eeac31;
+    text-align: center;
+    color: #000;
+}
+
+.main_popular_properties_button a:hover {
+    background-color: #ce9326;
+}
+
+#main_popular_properties_button_all {
+    flex-basis: 100%;
+    margin: 0 auto;
+    margin-top: 40px !important;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#main_popular_properties_button_all a {
+    padding: 10px 40px;
+    border: 2px solid #ce9326;
+    border-radius: 5px;
+    color: #ce9326;
+    font-size: .95em;
+}
+
+#main_popular_properties_button_all a:hover {
+    background-color: #ce9326;
+    color: #FFF;
+    transition: .3s;
+}
+/* FIM main_popular_properties */
+
+/* INÍCIO aside_optin */
+#aside_optin {
+    width: 100%;
+    background-color: #F7F7F7;
+}
+
+#aside_optin_content {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 60px 30px 65px 30px; /*top - right - bottom - left*/
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#aside_optin_content header {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#aside_optin_content header h1 {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+#aside_optin_content header p {
+    font-size: .95em;
+}
+
+#aside_optin_button {
+    flex-basis: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#aside_optin_button a {
+    color: #FFF;
+    background: linear-gradient(135deg,rgba(138, 41, 8, 1) 0%, rgba(255, 128, 0, 1) 100%);
+    padding: 10px 40px;
+    opacity: .9;
+    border-radius: 5px;
+}
+
+#aside_optin_button a:hover {
+    opacity: 1;
+    transition: .3s;
+}
+/* FIM aside_optin */
+
+/* INÍCIO footer */
+footer {
+    width: 100%;
+    background-color: #f7f2eb;
+}
+
+#footer_content {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 30px 20px 30px;
+}
+
+#footer_img {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#footer_img img {
+    width: 400px;
+}
+
+#footer_img h2 {
+    font-size: 1.2em;
+}
+
+#footer_top {
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#footer_top div {
+    flex-basis: 45%;
+    text-align: center;
+}
+
+#footer_top div h3 {
+    font-size: .95em;
+    margin-bottom: 10px;
+}
+
+#footer_top div p {
+    font-size: .95em;
+}
+
+#footer_top div a {
+    color: #000;
+}
+
+#footer_bottom {
+    flex-basis: 100%;
+    text-align: center;
+    margin: 50px auto 0 auto;
+    font-size: .9em;
+}
+
+#footer_bottom a {
+    color: #000;
+    text-decoration: underline;
+}
+/* FIM footer */
